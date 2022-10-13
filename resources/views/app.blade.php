@@ -17,12 +17,13 @@
     </style>
 
     @livewireStyles
-
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-<livewire:counter />
+<livewire:counter/>
 
 @livewireScripts
+<script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
 
 </body>
 </html>
